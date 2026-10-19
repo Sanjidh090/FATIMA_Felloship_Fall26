@@ -58,23 +58,23 @@ The benchmark should also distinguish **configured streaming latency** from expe
 
 I plan to build the evaluation in stages rather than immediately developing a new model.
 
-###  1 — Load the models
+###  1 . Load the models
 
-###  2 — Load the dataset
+###  2 . Load the dataset
 Torgo has been chosen becasue dysarthric ASR can require streaming solutions and it's transcription is still hard for models.
-###  3 — Retrieve and prepare audio
+###  3 . Retrieve and prepare audio
 
-###  4 — Verify streaming inference setup
+###  4 . Verify streaming inference setup
 
-###  5 — Benchmark the model
+###  5 . Benchmark the model
 
 Measure WER, CER, TTFT, RTF, processing speed etc.
 
-###  6 — Compare different models
+###  6 . Compare different models
 
 Models such as parakeet, Moonshine Streaming, Zipformer .
 
-###  7 — Analyse the trade-offs
+###  7 . Analyse the trade-offs
 
 Determine which model performs best under different requirements. For example, a developer might prefer lower TTFT for interactive voice typing, lower WER for transcription, or lower memory use for an edge device.
 
